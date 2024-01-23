@@ -1,0 +1,55 @@
+body {
+  background-color: #537188;
+  color: #ffffff;
+}
+
+#cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #c4dfdf;
+  color: #fff;
+  padding: 1rem;
+  font-family: sans-serif;
+  border: 2.5px;
+  color: #82a0d8;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button-accept {
+  background-color: #79ac78;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-decline {
+  background-color: #ff9b9b;
+}
+
+#cookie-notice p {
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.h1 {
+  font-family: sans-serif;
+}
+
+#toggle {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+body.dark {
+  background-color: rgb(2, 2, 2);
+}
