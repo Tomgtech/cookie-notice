@@ -30,6 +30,8 @@ if (cookiesAccepted) {
   cookieNotice.style.display = "none";
 }
 
+// used to make the bakground color change when the 'toggle' button is clicked
+
 toggleThemeButton.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
